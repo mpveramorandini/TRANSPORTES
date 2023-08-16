@@ -1,0 +1,69 @@
+.tituloQuienesSomos{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+   
+}
+.foto_personas{
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+ }
+ .quienesSomos{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ }
+ .quienes{
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     width: 47%;
+     padding: 10px;
+     margin: 13px 0;
+     display: block;
+     justify-content: space-between;
+     text-align:left;
+ }
+
+ .navIzq1 {
+    
+     background-color: #d84315;
+ 
+  
+ }
+
+
+ .navIzq3 ul {
+    list-style: none;
+    
+}
+.navIzq3ul li{
+    flex-grow: 1;
+}
+.navIzq3 ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition-duration: 1s;
+    display: block;
+}
+.navIzq3 ul li a:hover{
+    color: rgb(81, 80, 80);
+}
+ @media screen and (min-width:100px) and (max-width :800px) {
+   
+   .quienesSomos{
+    display: block;
+    margin-right: 20px;
+   }
+   .quienes{
+    width: 100%;
+   }
+   .tituloQuienesSomos{
+    text-align: center;
+   }
+
+   } 

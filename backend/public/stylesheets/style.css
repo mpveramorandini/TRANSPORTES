@@ -1,0 +1,56 @@
+header {
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h2 {
+  color: rgb(81, 80, 80);
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+footer{
+  background-color: #ccc;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 17rem;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+} 
+.holder{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.row p{
+  text-transform: uppercase;
+}
+.ingresar{
+  background-color: rgb(163, 8, 8);
+  border-color: rgb(163, 8, 8);
+}
+.ingresar:hover{
+  background-color: rgb(204, 22, 22);
+  border-color: rgb(204, 22, 22);
+}
+.form-control, .modificar{
+  margin-bottom: 1rem;
+}
+
+.form-control:focus{
+  border: rgb(178, 176, 174) solid 3px;
+  box-shadow: 0 1px 1px rgba(95, 93, 93, 0.075)inset, 0 0 4px rgba(5, 5, 5, 0.6);
+  outline: 0 none;
+}
