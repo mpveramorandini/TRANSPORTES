@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const QuienesSomos = (props)=> {
     return (
         <div className="holder"> 
-        <div className='navIzq1'>
+       <div className='navIzq1'>
     <nav>
             <div className='navIzq3'>
         <ul className="holder-izq">

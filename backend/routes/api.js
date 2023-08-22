@@ -32,7 +32,7 @@ router.post("/contacto", async (req, res) => {
   const mail = {
     to: "mpveramorandini@gmail.com",
     subject: "Contacto web",
-    html: `${req.body.nombre} se contactó a traves de la web y quiere más información a esta correo: ${req.body.email} <br> Además hizo el siguiente comentario: ${req.body.mensaje} <br> Su teléfono es: ${req.body.telefono}`,
+    html: `${req.body.nombre} se contactó a traves de la web y quiere más información a este correo: ${req.body.email} <br> Además hizo el siguiente comentario: ${req.body.mensaje} <br> Su teléfono es: ${req.body.telefono}`,
   };  //alt 96 son las comillas inclinadas-interpolacion de strings
 
   const transport = nodemailer.createTransport({
