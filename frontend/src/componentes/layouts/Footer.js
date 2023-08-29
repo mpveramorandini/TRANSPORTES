@@ -1,8 +1,11 @@
 import "../../estilos/componentes/layout/Footer.css";
 import React from "react";
+// import { Link, animateScroll as scroll } from "react-scroll";
+import ScrollButton from "../ScrollButton";
+
+
 
 const Footer = (props) => {
-
   return (
     <footer>
       <div class="datos-footer">
@@ -91,13 +94,16 @@ const Footer = (props) => {
 
       <div className="footer-abajo">
         <p> Cargo Expres - Derechos Reservados © </p>
+        <ScrollButton />
       </div>
-   
     </footer>
   );
 };
 
 
 export default Footer; 
+
+
+
 
 
