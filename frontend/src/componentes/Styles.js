@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Button = styled.div`
 position: fixed;
-right:10px;
+left:10px;
 bottom:24px;
 height: 20px;
 font-size: 2rem;

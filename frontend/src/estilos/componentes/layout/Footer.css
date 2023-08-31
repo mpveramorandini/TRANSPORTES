@@ -81,6 +81,12 @@ ul li {
     padding-top: 3rem;
  }
 
+.styles-module_avatar__afcc4 img{
+    display: none;
+}
+.styles-module_avatar__afcc4::after{
+    display: none;
+}
 
 
 
